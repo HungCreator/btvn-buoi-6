@@ -1,0 +1,33 @@
+* {
+  background-color: black;
+}
+.tieude {
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.noidung {
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+  width: 320px;
+  border-radius: 20px;
+}
+
+.piture {
+  width: 60%;
+  object-fit: cover; /* xử lý méo ảnh */
+  vertical-align: middle; /* Loại bỏ phần khoảng trắng dưới ảnh */
+}
+
+.english {
+  color: aliceblue;
+}
+
+.vietnamese {
+  color: yellow;
+}
